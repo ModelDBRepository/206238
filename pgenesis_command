@@ -1,0 +1,3 @@
+mpdboot -v -f nodes -n 16
+nohup pgenesis -nodes 16 -nox  -altsimrc .nxpsimrc  -silent 0 -notty -batch Neocortex  > pgen.out < /dev/null &
+mpdallexit -v

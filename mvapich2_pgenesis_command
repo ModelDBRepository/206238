@@ -1,0 +1,4 @@
+
+mpirun_rsh -ssh -np 16 -hostfile ../mpd.hosts /home/pol/genesis-2.3/pgenesis/bin/Linux/nxpgenesis -altsimrc .nxpsimrc  Neocortex.g
+
+mpirun_rsh -ssh -np 16 -hostfile ../mpd.hosts /home/pol/genesis-2.3/pgenesis/bin/Linux/nxpgenesis -altsimrc .nxpsimrc  -notty -batch Neocortex > nxpgenesis.out 2>&1  &
